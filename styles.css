@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#navbar header {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color:gold;
+}
+
+.nav-link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  color: gold;
+}
+
+#main-doc {
+  margin-left: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-section {
+  margin-bottom: 40px;
+}
+
+.main-section header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.main-section a{
+  color: #333;
+}
+
+.main-section a:hover{
+  color: gold;
+}
+
+code {
+  display: block;
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: 'Courier New', monospace;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: static;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  #main-doc {
+    margin-left: 0;
+  }
+}
